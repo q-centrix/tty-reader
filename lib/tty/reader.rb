@@ -158,7 +158,7 @@ module TTY
     #
     # @api public
     def subscribe(listener, options = {})
-      old_subcribe(listener, options)
+      old_subcribe(listener, **options)
       object = self
       if block_given?
         object = yield
@@ -613,3 +613,4 @@ module TTY
     end
   end # Reader
 end # TTY
+
