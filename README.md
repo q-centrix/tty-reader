@@ -1,3 +1,9 @@
+## Read This:
+**This Fork is just to keep wisper up to date in our `web` Gemfile**
+When one of these PRs (https://github.com/piotrmurach/tty-reader/pull/32, https://github.com/piotrmurach/tty-reader/pull/35) get merged into mainline of the upstream gem, we can retire this.
+
+
+
 <div align="center">
   <a href="https://ttytoolkit.org"><img width="130" src="https://github.com/piotrmurach/tty/raw/master/images/tty.png" alt="TTY Toolkit logo" /></a>
 </div>
